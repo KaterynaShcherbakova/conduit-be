@@ -18,8 +18,10 @@ export class SeederService {
     }
 
     const tags = [
-      { name: 'coffee' },
-      { name: 'nestjs' },
+      { name: 'react' },
+      { name: 'angularjs' },
+      { name: 'dragons' },
+
     ];
     for (const tag of tags) {
       await this.tagService.create(tag); 
